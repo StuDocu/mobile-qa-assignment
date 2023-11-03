@@ -1,6 +1,6 @@
-import React, {useCallback} from 'react';
-import {useSelector} from 'react-redux';
-import styled from 'styled-components/native';
+import React, { useCallback } from "react";
+import { useSelector } from "react-redux";
+import styled from "styled-components/native";
 import {
   isInReading,
   isInWishlist,
@@ -8,18 +8,24 @@ import {
   removeFromWishlist,
   addToReading,
   removeFromReading,
-} from '../redux/slices/myBooksSlice';
-import {AppState, useAppDispatch} from '../redux/store';
+} from "../redux/slices/myBooksSlice";
+import { AppState, useAppDispatch } from "../redux/store";
 
-import {IconButton} from './Button';
+import { IconButton } from "./Button";
 
-export const BookButtons = ({bookKey}: {bookKey: string}) => {
+export const BookButtons = ({
+  bookKey,
+  special = false,
+}: {
+  bookKey: string;
+  special?: boolean;
+}) => {
   const dispatch = useAppDispatch();
   const isWishListed = useSelector((state: AppState) =>
-    isInWishlist(state, bookKey),
+    isInWishlist(state, bookKey)
   );
   const isReading = useSelector((state: AppState) =>
-    isInReading(state, bookKey),
+    isInReading(state, bookKey)
   );
 
   const toggleWishList = useCallback(() => {
@@ -39,14 +45,14 @@ export const BookButtons = ({bookKey}: {bookKey: string}) => {
       <IconButton
         icon="star"
         size="small"
-        type={isWishListed ? 'primary' : 'secondary'}
-        onPress={toggleWishList}
+        type={isWishListed ? "primary" : "secondary"}
+        onPress={!special ? toggleWishList : () => {}}
       />
       <IconButton
         icon="book"
         size="small"
-        type={isReading ? 'primary' : 'secondary'}
-        onPress={toggleReading}
+        type={isReading ? "primary" : "secondary"}
+        onPress={!special ? toggleReading : () => {}}
       />
     </StyledButtonWrap>
   );

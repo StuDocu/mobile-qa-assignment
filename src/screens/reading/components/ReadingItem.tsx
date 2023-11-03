@@ -11,18 +11,16 @@ type Props = {
 export const ReadingItem = ({ bookKey }: Props) => {
   const { data: book, isLoading } = useGetBookQuery({ bookKey });
 
-  console.log(book);
-
   if (!book) {
     return null;
   }
-  console.log(book);
   return (
     <View>
       {isLoading && <Loader />}
       <BookCover
         bookKey={bookKey}
         cover={`https://covers.openlibrary.org/b/id/${book.cover}-M.jpg`}
+        special
       />
       <BookHeader book={book} />
     </View>

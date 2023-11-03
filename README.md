@@ -6,9 +6,9 @@ This test consists of two parts: a coding part as an Automation Testing Assignme
 
 ## Test Automation
 
-For the coding part you can clone this repo with `--bare` (and later push the solution with `--mirror` to a new repo in your accounts) and you'll have the code for a working React Native app, please follow the [Project Setup and Running](#project-setup-and-running) section below to get it running.
+For the coding part you can clone this repo by clicking `Use this template` at the top or through CLI with `--bare` (and later push the solution with `--mirror` to a new repo in your accounts) and you'll have the code for a working React Native app, please follow the [Project Setup and Running](#project-setup-and-running) section below to get it running.
 
-Your challenge is to list scenarios that you would test in this app (manually or automated) and to implement at least 5 of these cases in an automated way.
+Your challenge is to list scenarios that you would test in this app (manually, automated or both) and to implement at least 5 of these cases in an automated way.
 
 The technical solution choices regarding language and framework are up to you, however we would prefer to see something on JS or TS and possibly Appium framework, given we use these internally. Take this chance to show your knowledge not only regarding coding but also regarding integrating different features to an automation project as reporting, parallel execution, retries, screenshots and logging when failing, etc.
 
@@ -16,6 +16,9 @@ The technical solution choices regarding language and framework are up to you, h
 
 For the written part, we would like to receive a PDF, slide presentation or preferably an MD file (readme) with your insights.
 We’ll evaluate how is your way of working when dealing with an automation challenge, but you can explore this opportunity beyond the scope of this simple challenge by explaining how you proceed with the analysis of this project, planning of your tasks, technical solution selection, design pattern choice, implementation, execution, etc.
+
+We also expect to hear your opinion about this simple project as a QA Engineer, what would you do differently, what would you improve, what would you add, etc.
+This part doesn't have to be a full essay about your thoughts, just some bullet points that you can base yourself from and then we can discuss it further in the interview.
 
 You can think about this written part both as the presentation of the project to a stakeholder and as the technical documentation for the team who could join you for maintaining or extending the project with instructions about how to use it.
 
