@@ -2,13 +2,24 @@
 
 Welcome to the Mobile QA Engineer Technical Assignment. We expect the work to take a few hours, and we thank you in advance for taking that time for us!
 
-This test consists of two parts: a coding part as an Automation Testing Assignment an a written part as a Documentation.
+This test consists of three parts:
 
-## Test Automation
+- Testing
+- Automation Testing
+- Documentation
 
-For the coding part you can clone this repo by clicking `Use this template` at the top or through CLI with `--bare` (and later push the solution with `--mirror` to a new repo in your accounts) and you'll have the code for a working React Native app, please follow the [Project Setup and Running](#project-setup-and-running) section below to get it running.
+## Setup
 
-Your challenge is to list scenarios that you would test in this app (manually, automated or both) and to implement at least 5 of these cases in an automated way.
+Clone this repo by clicking `Use this template` at the top or through CLI with `--bare` (and later push the solution with `--mirror` to a new repo in your accounts) and you'll have the code for a working React Native app, please follow the [Project Setup and Running](#project-setup-and-running) section below to get it running.
+
+## Testing
+
+Following the [feature list](#features) below, please test the app and list scenarios that you would test manually, automated or both.
+You can list these scenarios in the document you'll send us later.
+
+## Automation Testing
+
+In this part your challenge is to implement at least 5 of the cases you listed in the discovery in an automated way.
 
 The technical solution choices regarding language and framework are up to you, however we would prefer to see something on JS or TS and possibly Appium framework, given we use these internally. Take this chance to show your knowledge not only regarding coding but also regarding integrating different features to an automation project as reporting, parallel execution, retries, screenshots and logging when failing, etc.
 
@@ -35,6 +46,7 @@ This project demonstrates fetching and displaying books using React, React-Nativ
   - Currently reading 📕
 - Removing books from lists
 - Access currently reading list
+  - Remove books from lists in this screen
 
 ## Project Setup and Running
 
