@@ -19,7 +19,7 @@ You can list these scenarios in the document you'll send us later.
 
 ## Automation Testing
 
-In this part your challenge is to implement at least 5 of the cases you listed in the discovery in an automated way.
+In this part of your challenge is to implement at least 5 of the cases you listed in the discovery in an automated way.
 
 The technical solution choices regarding language and framework are up to you, however we would prefer to see something on JS or TS and possibly Appium framework, given we use these internally. Take this chance to show your knowledge not only regarding coding but also regarding integrating different features to an automation project as reporting, parallel execution, retries, screenshots and logging when failing, etc.
 
@@ -40,13 +40,13 @@ This project demonstrates fetching and displaying books using React, React-Nativ
 ## Features:
 
 - Searching for books by title and ISBN
-- Displaying book details
 - Adding books to lists
   - Wishlist ⭐️
   - Currently reading 📕
-- Removing books from lists
 - Access currently reading list
   - Remove books from lists in this screen
+- Removing books from lists
+- Displaying book details
 
 ## Project Setup and Running
 
