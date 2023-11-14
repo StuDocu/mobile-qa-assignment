@@ -33,6 +33,13 @@ This part doesn't have to be a full essay about your thoughts, just some bullet 
 
 You can think about this written part both as the presentation of the project to a stakeholder and as the technical documentation for the team who could join you for maintaining or extending the project with instructions about how to use it.
 
+# Delivery
+To deliver this assignment to us, just email us the link to the repo you created using this template, we expect:
+* To see your implementation of tests around the app codebase
+* Run the tests locally with provided instructions (good to update this README with instruction on how to run the automated tests)
+* See the documentation you created in the repo (you can make a folder just for it)
+* If you have any questions, don't hesitate to email us
+
 # Open Library Books App
 
 This project demonstrates fetching and displaying books using React, React-Native, Redux Toolkit.
