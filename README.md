@@ -23,6 +23,9 @@ In this part of your challenge is to implement at least 5 of the cases you liste
 
 The technical solution choices regarding language and framework are up to you, however we would prefer to see something on JS or TS and possibly Appium framework, given we use these internally. Take this chance to show your knowledge not only regarding coding but also regarding integrating different features to an automation project as reporting, parallel execution, retries, screenshots and logging when failing, etc.
 
+> [!IMPORTANT]
+> The app does not have `testIDs` setup so you might encounter some difficulties in locating elements. We expect you to navigate the source code and find a way to locate the elements you need to interact with. This is of course depending on the framework you choose to use, but if you chose Appium [this article might help you](https://www.browserstack.com/guide/appium-react-native-for-automation#:~:text=To%20ensure%20that,to%20UI%20components.).
+
 ## Documentation:
 
 For the written part, we would like to receive a PDF, slide presentation or preferably an MD file (readme) with your insights.
@@ -39,6 +42,7 @@ To deliver this assignment to us, just email us the link to the repo you created
 * Run the tests locally with provided instructions (good to update this README with instruction on how to run the automated tests)
 * See the documentation you created in the repo (you can make a folder just for it)
 * If you have any questions, don't hesitate to email us
+* If you chose to keep your repo private, please add the following users as collaborators: `@studocuvitor`, `@muhammad-studocu` & `@metalweirdo`
 
 # Open Library Books App
 
